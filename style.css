@@ -89,6 +89,22 @@ h2 {
     border-radius: 5px;
     text-decoration: none;
     transition: background 0.3s ease;
+    display: inline-block;
+    font-size: 1.2em; /* Tamaño de la fuente */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Alineación */
+    transition: all 0.3s ease; /* Efecto de transición */
+}
+
+/* Efectos al pasar el ratón */
+.btn:hover {
+    background-color: #4d92a3; /* Cambia el color de fondo */
+    color: #ffffff; /* Asegura que el texto sea visible */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra en hover */
+    transform: translateY(-2px); /* Pequeño movimiento hacia arriba */
+}
+
 }
 
 .buy-button:hover {
