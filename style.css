@@ -1,14 +1,14 @@
 /* Estilos generales */
 body {
-    font-family: 'Lora', serif; /* Fuente elegante y artística */
+    font-family: 'Lora', serif; 
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #e8d8e1, #d2e6f0); /* Tonos pastel más suaves */
+    background: linear-gradient(135deg, #e8d8e1, #d2e6f0); 
     color: #444;
 }
 
 header {
-    background-color: #89a6c7; /* Azul pastel suave */
+    background-color: #89a6c7; 
     padding: 30px 0;
     color: white;
     text-align: center;
@@ -16,16 +16,16 @@ header {
 }
 
 header h1 {
-    font-family: 'Playfair Display', serif; /* Fuente elegante para el encabezado */
+    font-family: 'Playfair Display', serif; 
     font-size: 3.5em;
     margin: 0;
 }
 
 header p {
-    font-family: 'Lora', serif; /* Fuente elegante para el texto */
+    font-family: 'Lora', serif; 
     font-size: 1.2em;
     margin: 10px 0 0;
-    color: #e8f4fc; /* Contraste suave */
+    color: #e8f4fc; 
 }
 
 /* Contenedor principal */
@@ -37,8 +37,8 @@ header p {
 }
 
 h2 {
-    color: #89a6c7; /* Azul pastel suave */
-    font-family: 'Playfair Display', serif; /* Fuente artística */
+    color: #89a6c7; 
+    font-family: 'Playfair Display', serif; 
     font-size: 2.5em;
     margin-bottom: 20px;
 }
