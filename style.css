@@ -1,28 +1,31 @@
 /* Estilos generales */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Lora', serif; /* Fuente elegante y artística */
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #a3e3e8, #e6aef9);
-    color: #333;
+    background: linear-gradient(135deg, #e8d8e1, #d2e6f0); /* Tonos pastel más suaves */
+    color: #444;
 }
 
 header {
-    background-color: #5fa3b8;
+    background-color: #89a6c7; /* Azul pastel suave */
     padding: 30px 0;
     color: white;
     text-align: center;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
+    font-family: 'Playfair Display', serif; /* Fuente elegante para el encabezado */
     font-size: 3.5em;
     margin: 0;
 }
 
 header p {
+    font-family: 'Lora', serif; /* Fuente elegante para el texto */
     font-size: 1.2em;
     margin: 10px 0 0;
+    color: #e8f4fc; /* Contraste suave */
 }
 
 /* Contenedor principal */
@@ -34,7 +37,8 @@ header p {
 }
 
 h2 {
-    color: #5fa3b8;
+    color: #89a6c7; /* Azul pastel suave */
+    font-family: 'Playfair Display', serif; /* Fuente artística */
     font-size: 2.5em;
     margin-bottom: 20px;
 }
@@ -47,16 +51,17 @@ h2 {
 }
 
 .product {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    border-radius: 12px; /* Bordes más suaves */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .product:hover {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra más notoria */
 }
 
 .product img {
@@ -66,52 +71,52 @@ h2 {
 }
 
 .product h3 {
-    color: #5fa3b8;
+    color: #89a6c7; /* Azul pastel */
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
     margin-top: 15px;
 }
 
 .product p {
-    color: #666;
+    color: #555; /* Texto más oscuro para contraste */
     margin: 10px 0;
 }
 
 .product .price {
-    color: #e6aef9;
+    color: #e7b8d4; /* Rosa pastel */
     font-size: 1.4em;
     margin: 10px 0;
 }
 
 .buy-button {
-    background: #5fa3b8;
+    background: #89a6c7; /* Azul pastel */
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
-    transition: background 0.3s ease;
     display: inline-block;
-    font-size: 1.2em; 
-    font-family: 'Arial', sans-serif; 
-    font-weight: bold; 
+    font-size: 1.2em;
+    font-family: 'Lora', serif; /* Fuente elegante para el botón */
+    font-weight: bold;
     text-align: center;
-    transition: all 0.3s ease; /* Efecto de transición */
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
 .buy-button:hover {
-    background: #4d92a3;
-    color: #ffffff; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra*/
-    transform: translateY(-2px); 
+    background: #7692b1; /* Tonalidad más oscura */
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
 }
 
 /* Footer */
 footer {
-    background: #5fa3b8;
+    background: #89a6c7; /* Azul pastel suave */
     color: white;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave en el borde superior */
 }
 
 footer .social-links {
@@ -127,7 +132,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-    color: #e6aef9; 
-    transform: scale(1.2); 
+    color: #e7b8d4; /* Rosa pastel */
+    transform: scale(1.2);
 }
 
