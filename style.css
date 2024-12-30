@@ -22,12 +22,6 @@ body {
     color: #000;
 }
 
-
-.left-icons .fa-star {
-    color: gold;
-}
-
-
 h1 {
     text-align: center;
     flex-grow: 1;
@@ -54,9 +48,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-}
-
 }
 
 header h1 {
