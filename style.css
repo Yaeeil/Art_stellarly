@@ -24,13 +24,6 @@ h1 {
 }
 
 /* Si quieres más control en los dispositivos móviles */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-        background-color: #89a6c7; 
-        color: white;
-    }
 
    .right-icons {
         justify-content: center;
