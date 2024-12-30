@@ -6,13 +6,57 @@ body {
     background: linear-gradient(135deg, #e8d8e1, #d2e6f0); 
     color: #444;
 }
+.left-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.right-icons {
+    display: flex;
+    gap: 15px;
+}
+
+/* Estilos para los íconos */
+.fas, .fab {
+    font-size: 24px;
+    color: #000;
+}
+
+
+.left-icons .fa-star {
+    color: gold;
+}
+
+
+h1 {
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Si quieres más control en los dispositivos móviles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-icons, .right-icons {
+        justify-content: center;
+    }
+
 
 header {
     background-color: #89a6c7; 
-    padding: 30px 0;
+    /*padding: 30px 0;*/
     color: white;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
 }
 
 header h1 {
