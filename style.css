@@ -6,10 +6,6 @@ body {
     background: linear-gradient(135deg, #e8d8e1, #d2e6f0); 
     color: #444;
 }
-.left-icons {
-    display: flex;
-    gap: 10px;
-}
 
 .right-icons {
     display: flex;
@@ -32,9 +28,11 @@ h1 {
     header {
         flex-direction: column;
         text-align: center;
+        background-color: #89a6c7; 
+        color: white;
     }
 
-    .left-icons, .right-icons {
+   .right-icons {
         justify-content: center;
     }
 
