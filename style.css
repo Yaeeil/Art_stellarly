@@ -7,54 +7,47 @@ body {
     color: #444;
 }
 
-.right-icons {
-    display: flex;
-    gap: 15px;
-}
-
 /* Estilos para los íconos */
 .fas, .fab {
     font-size: 24px;
     color: #000;
 }
 
-h1 {
-    text-align: center;
-    flex-grow: 1;
-}
-
-/* Si quieres más control en los dispositivos móviles */
-
-   .right-icons {
-        justify-content: center;
-    }
-
-
+/* Estilos para el encabezado */
 header {
     background-color: #89a6c7; 
-    /*padding: 30px 0;*/
     color: white;
-    text-align: center;
+    text-align: center; /* Centra el contenido dentro del header */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Alinea los íconos a los extremos */
     align-items: center;
+    padding: 20px; /* Añade un poco de espaciado */
 }
 
+/* Estilo del título */
 header h1 {
     font-family: 'Playfair Display', serif; 
     font-size: 3.5em;
     margin: 0;
+    flex-grow: 1; /* Hace que el título ocupe el espacio restante */
 }
 
-header p {
-    font-family: 'Lora', serif; 
-    font-size: 1.2em;
-    margin: 10px 0 0;
-    color: #e8f4fc; 
+/* Estilo de los íconos a la derecha */
+.right-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end; /* Alinea los íconos a la derecha */
 }
 
-/* Contenedor principal */
+/* Estilo de los íconos a la izquierda (puedes incluir estrellas aquí si es necesario) */
+.left-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start; /* Alinea los íconos a la izquierda */
+}
+
+/* Estilo del contenedor principal */
 .container {
     width: 90%;
     max-width: 1200px;
@@ -62,14 +55,7 @@ header p {
     text-align: center;
 }
 
-h2 {
-    color: #89a6c7; 
-    font-family: 'Playfair Display', serif; 
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-/* Grid de productos */
+/* Estilos del grid de productos */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -78,7 +64,7 @@ h2 {
 
 .product {
     background: #ffffff;
-    border-radius: 12px; /* Bordes más suaves */
+    border-radius: 12px; 
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
@@ -87,7 +73,7 @@ h2 {
 
 .product:hover {
     transform: translateY(-8px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra más notoria */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .product img {
@@ -97,24 +83,24 @@ h2 {
 }
 
 .product h3 {
-    color: #89a6c7; /* Azul pastel */
-    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    color: #89a6c7; 
+    font-family: 'Playfair Display', serif;
     margin-top: 15px;
 }
 
 .product p {
-    color: #555; /* Texto más oscuro para contraste */
+    color: #555; 
     margin: 10px 0;
 }
 
 .product .price {
-    color: #e7b8d4; /* Rosa pastel */
+    color: #e7b8d4; 
     font-size: 1.4em;
     margin: 10px 0;
 }
 
 .buy-button {
-    background: #89a6c7; /* Azul pastel */
+    background: #89a6c7; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -122,14 +108,14 @@ h2 {
     text-decoration: none;
     display: inline-block;
     font-size: 1.2em;
-    font-family: 'Lora', serif; /* Fuente elegante para el botón */
+    font-family: 'Lora', serif;
     font-weight: bold;
     text-align: center;
     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .buy-button:hover {
-    background: #7692b1; /* Tonalidad más oscura */
+    background: #7692b1; 
     color: #ffffff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transform: translateY(-2px);
@@ -137,12 +123,12 @@ h2 {
 
 /* Footer */
 footer {
-    background: #89a6c7; /* Azul pastel suave */
+    background: #89a6c7;
     color: white;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave en el borde superior */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer .social-links {
@@ -158,7 +144,18 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-    color: #e7b8d4; /* Rosa pastel */
+    color: #e7b8d4; 
     transform: scale(1.2);
 }
 
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Cambia el layout a columna */
+        text-align: center; /* Centra el texto */
+    }
+
+    .right-icons {
+        justify-content: center; /* Centra los íconos */
+    }
+}
