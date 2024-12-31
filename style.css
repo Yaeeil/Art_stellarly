@@ -40,9 +40,6 @@ header h1 {
     justify-content: flex-end; /* Alinea los íconos a la derecha */
 }
 
-.right-icons a:hover {
-    color: #e7b8d4; 
-}
 
 /* Estilo de los íconos a la izquierda (puedes incluir estrellas aquí si es necesario) */
 .left-icons {
